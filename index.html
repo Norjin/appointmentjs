@@ -1,0 +1,47 @@
+<!Doctype>
+<html>
+    <head>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      
+       <script src="javascript/actions.js"></script> 
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="message" hidden></div>
+            <button id="newbtn" class="new-btn" onclick="toggleForm()">New</button>
+            
+            <div class="form-container">
+                <form id="form" class="inline-form">
+                    <span class="btn-group">
+                        <button id="submit">Add</button>
+                        <button type="button" onclick="toggleForm()">Cancel</button>
+                    </span>
+                    <label for="">
+                        Date: 
+                        <input type="date" name="date" id="new-date" required>
+                    </label>
+                    <label for="">
+                        Time: 
+                        <input type="time" name="time" id="new-time" required>
+                    </label>
+                    <label for="">
+                        Desc: 
+                        <input type="text" name="desc" id="new-desc" required>
+                    </label>
+                </form>
+            </div>
+            <div class="container-search">
+                <input type="text" id="search-text" placeholder="Search">
+                <button onclick="search()">Submit</button>
+            </div>
+            <div class="container-table">
+                <table id="tablelist">
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

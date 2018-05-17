@@ -1,0 +1,33 @@
+{
+  "name": "appointmentjs",
+  "version": "1.0.0",
+  "description": "express js with javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Norjin/appointmentjs.git"
+  },
+  "author": "Norjin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Norjin/appointmentjs/issues"
+  },
+  "homepage": "https://github.com/Norjin/appointmentjs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.4"
+  },
+  "engines": {
+    "node": "8.11.1",
+    "npm": "5.6.0"
+  }
+}

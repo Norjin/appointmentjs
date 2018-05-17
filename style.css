@@ -1,0 +1,48 @@
+body {
+    background: #eee;
+    box-sizing: border-box;
+}
+button, input {
+    padding: 5px 10px;
+}
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+}
+.container-search {
+    margin: 15px 0;
+    float: right;
+}
+.container-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.container-table table td, .container-table table th {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+.container-table table tr:nth-child(even){
+    background: #ddd;
+}
+.container-table table tr td:first-child,
+.container-table table tr td:nth-child(2) {
+    text-align: center;
+}
+.inline-form {
+    display: flex;
+}
+.inline-form button {
+    margin-right: 10px;
+}
+#message {
+    color: #f00;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+label, .btn-group {
+    flex-grow: 1;
+}
